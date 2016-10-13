@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LinkedIn</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>
+                <a href="#">LinkedIn</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">What is LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="#">Join Today</a>
+                    </li>
+                    <li>
+                        <fieldset>
+                            <legend>Sign In</legend>
+                            <ul type="circle">
+                                <li>
+                                    <label for="e-mail">Email:</label>
+                                    <input type="text" id="e-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Enter valid e-mail like: aaaa@mail.com "
+                                    required/>
+                                </li>
+                                <li>
+                                    <label for="password">Password:</label>
+                                    <input type="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                                    required/>
+                                </li>
+                                <li>
+                                    <input type="submit" name="Sign In" value="Sign In" />
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <hr />
+        <section>
+            <header>
+                <h2>Over 175 million professionals use LinkedIn to exchange information, ideas and opportunities</h2>
+            </header>
+            <nav>
+                <ul>
+                    <li>Stay informed about your contacts and industry</li>
+                    <li>Find the people & knowledge you need to achieve your goals</li>
+                    <li>Control your professional identity online</li>
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <header>
+                <h3>Join LinkedIn Today</h3>
+            </header>
+            <nav>
+                <fieldset>
+                    <legend>Sign Up</legend>
+                    <ul>
+                        <li>
+                            <label for="first name">First Name:</label>
+                            <br/>
+                            <input type="text" id="first name" required>
+                        </li>
+                        <li>
+                            <label for="Last name">Last Name:</label>
+                            <br/>
+                            <input type="text" id="last name" required>
+                        </li>
+                        <li>
+                            <label for="e-mail-signup">Email:</label>
+                            <br/>
+                            <input type="text" id="e-mail-signup" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Enter valid e-mail like: aaaa@mail.com "
+                            required/>
+                        </li>
+                        <li>
+                            <label for="password-signup">Password:</label>
+                            <br/>
+                            <input type="password" id="password-signup" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                            required/>
+                            <br/>
+                            <span>6 or more characters</span>
+                            <br/>
+                        </li>
+                    </ul>
+                    <input type="submit" value="Join Now" />
+                    <a href="#">*</a>
+                    <br/>
+                    <span>Already on LinkedIn? <a href="#">Sign in</a></span>
+                </fieldset>
+            </nav>
+        </section>
+        <section>
+            <header>
+                <h4>Search for someone by name:</h4>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <label for="first">First Name:</label>
+                        <input type="text" placeholder="First Name" />
+                    </li>
+                    <li>
+                        <label for="last">Last Name:</label>
+                        <input type="text" placeholder="Last Name">
+                    </li>
+                </ul>
+                <input type="submit" value="Go" />
+            </nav>
+        </section>
+    </main>
+</body>
+
+</html>

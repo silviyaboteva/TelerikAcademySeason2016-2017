@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Registration form</title>
+  <style>
+  td.buttons {
+    text-align: center;
+  }
+  </style>
+</head>
+<body>
+  <form method="get">
+    <table border="1" class="table">
+      <tr>
+        <td>
+          <label for="last name"><strong>Last Name</strong></label>
+        </td>
+        <td>
+          <input type="text" id="last name" required="true" size="25px" alt="Text field"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="first name"><strong>First Name</strong></label>
+        </td>
+        <td>
+          <input type="text" id="first name" required="true" size="25px" alt="Text field"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="address"><strong>Address</strong></label>
+        </td>
+        <td>
+          <textarea id="address" cols="30" rows="4"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="city"><strong>City</strong></label>
+        </td>
+        <td>
+          <input type="text" id="city" required="true" size="15px" alt="Text field"/>State
+          <input type="text" id="state" required="true" size="5px" alt="Text field"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="zip"><strong>Zip/Postal Code</strong></label>
+        </td>
+        <td>
+          <input type="text" id="zip" required="true" size="5px" alt="Text field" placeholder="0000"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="country"><strong>Country</strong></label>
+        </td>
+        <td>
+          <select id="country">
+            <option value="Albania">Albania</option>
+            <option value="Bulgaria" selected="selected">Bulgaria</option>
+            <option value="Greece">Greece</option>
+            <option value="UK">United Kingdom</option>
+            <option value="Turkey">Turkey</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="phone"><strong>Phone(country code,<br /> area code, number)</strong></label>
+        </td>
+        <td>
+          (+<input type="text" id="phone" required="true" size="4px" placeholder="359"/>)
+          <input type="text" required="true" size="3px" placeholder="88"/>-
+          <input type="text" required="true" size="8px" alt="Text field" placeholder="8888888"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="e-mail"><strong>E-mail</strong></label>
+        </td>
+        <td>
+          <input type="text" id="e-mail" pattern="[^ @]*@[^ @].[^ @]" required="true" size="25px" alt="Text field" placeholder="aaaaa@gmail.com"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="date"><strong>Birth Date</strong></label>
+        </td>
+        <td>
+          <input type="text" id="date" required="true" size="15px" placeholder="дд. мм. гггг г." alt="Text field"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="gender"><strong>Gender</strong></label>
+        </td>
+        <td>
+          <select id="gender">
+            <option value="Male" selected="selectted">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Starting date</strong>
+        </td>
+        <td>
+          <input type="radio" name="season" value="Spring 2015" alt="Radio button"/>Spring 2015
+          <input type="radio" name="season" value="Summer 2015" alt="Radio button"/>Summer 2015
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="comments"><strong>Comments/Questions</strong></label>
+        </td>
+        <td>
+          <textarea id="comments" cols="30" rows="4" placeholder="Write a comment ot a question here..."></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" bgcolor="lightblue" class="buttons">
+          <input type="submit" name="submitBtn" value="Submit" alt="Submit button"/>
+          <input type="reset" name="resetBtn" value="Clean This Form" alt="Reset button"/>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>

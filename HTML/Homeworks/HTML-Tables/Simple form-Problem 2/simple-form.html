@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Personal Data</title>
+</head>
+<body>
+  <form name="Personal Data" method="post">
+    <label for="member name">Member name :</label>
+    <input type="text" id="member name" required="true">
+    <strong>*req</strong>
+    <br/>
+    <label for="e-mail">E-mail :</label>
+    <input type="email" id="e-mail" required="true" pattern="[^ @]*@[^ @].[^ @]"/>
+    <strong>*req</strong>
+    <br/>
+    <label for="school">School :</label>
+    <input type="text" id="school" required="true">
+    <strong>*req</strong>
+    <br/>
+    <button type="submit">
+      <img src="submit-button.png" height="30" width="70"/>
+    </button>
+  </form>
+</body>
+</html>

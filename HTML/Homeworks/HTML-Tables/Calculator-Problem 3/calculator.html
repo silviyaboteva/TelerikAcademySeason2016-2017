@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head bgcolor="lightpink">
+  <title>Calculator</title>
+  <meta charset="UTF-8">
+  <style>
+  table {
+    border-style: solid;
+    border-color: lightpink;
+  }
+  input.result {
+    text-align: right;
+    width: 160px;
+    height: 40px
+  }
+  button {
+    width: 40px;
+    height: 40px;
+    background-color: lightpink;
+  }
+  button.equal {
+    width: 40px;
+    height: 80px;
+  }
+  button.zero {
+    width: 80px;
+    height: 40px;
+  }
+  </style>
+</head>
+<body>
+  <table class="table" cellspacing="0" cellpadding="0">
+    <tr>
+      <td colspan="4">
+        <form>
+          <div class="textarea" color="lightpink">
+            <input type="text" class="result" alt="Text field" title="Enter some value"/>
+          </div>
+        </form>
+      </td>
+    </tr>
+    <tr>
+      <td><button type="button"><div><strong>MC</strong></div></button></td>
+      <td><button type="button"><div><strong>M+</strong></div></button></td>
+      <td><button type="button"><div><strong>M-</strong></div></button></td>
+      <td><button type="button"><div><strong>MR</strong></div></button></td>
+    </tr>
+    <tr>
+      <td><button type="button"><div><strong>C</strong></div></button></td>
+      <td><button type="button"><div><strong>+/-</strong></div></button></td>
+      <td><button type="button"><div><strong>/</strong></div></button></td>
+      <td><button type="button"><div><strong>*</strong></div></button></td>
+    </tr>
+    <tr>
+      <td><button type="button"><div><strong>7</strong></div></button></td>
+      <td><button type="button"><div><strong>8</strong></div></button></td>
+      <td><button type="button"><div><strong>9</strong></div></button></td>
+      <td><button type="button"><div><strong>-</strong></div></button></td>
+    </tr>
+    <tr>
+      <td><button type="button"><div><strong>4</strong></div></button></td>
+      <td><button type="button"><div><strong>5</strong></div></button></td>
+      <td><button type="button"><div><strong>6</strong></div></button></td>
+      <td><button type="button"><div><strong>+</strong></div></button></td>
+    </tr>
+    <tr>
+      <td><button type="button"><div><strong>1</strong></div></button></td>
+      <td><button type="button"><div><strong>2</strong></div></button></td>
+      <td><button type="button"><div><strong>3</strong></div></button></td>
+      <td rowspan="2"><button type="button" class="equal"><div><strong>=</strong></div></button></td>
+    </tr>
+    <tr>
+      <td colspan="2"><button type="button" class="zero"><div><strong>0</strong></div></button></td>
+      <td><button type="button"><div><strong>.</strong></div></button></td>
+    </tr>
+  </table>
+</body>
+</html>
