@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="students.xslt" ?>
+  <students xmlns:students="urn:students">
+    <student>
+      <name>Pesho Peshev</name>
+      <sex>Male</sex>
+      <birthdate>30-01-1995</birthdate>
+      <phone>089-999-8877</phone>
+      <email>pesho@gmail.com</email>
+      <course>JavaScript</course>
+      <specialty>ES6 Promises</specialty>
+      <facultynumber>12345</facultynumber>
+      <exams>
+        <exam>
+          <name>JavaScript Applications</name>
+          <tutor>
+            <name>Doncho Minkov</name>
+            <enrollment>
+              <year>2016</year>
+              <endorsement>Senior at Frond-End Development</endorsement>
+            </enrollment>
+          </tutor>
+          <score>100</score>
+        </exam>
+      </exams>
+    </student>
+    <student>
+      <name>Mariya Georgieva</name>
+      <sex>Female</sex>
+      <birthdate>05-05-1992</birthdate>
+      <phone>089-888-5566</phone>
+      <email>mariya@gmail.com</email>
+      <course>HQC-Part 2</course>
+      <specialty>C# developer</specialty>
+      <facultynumber>80365</facultynumber>
+      <exams>
+        <exam>
+          <name>HQC-Part 2</name>
+          <tutor>
+            <name>Kristiyan Tsuklev</name>
+            <enrollment>
+              <year>2015</year>
+              <endorsement>Fedora master</endorsement>
+            </enrollment>
+          </tutor>
+          <score>150</score>
+        </exam>
+      </exams>
+    </student>
+    <student>
+      <name>Gosho Stoikov</name>
+      <sex>Male</sex>
+      <birthdate>08-12-1998</birthdate>
+      <phone>089-898-2356</phone>
+      <email>gosho@gmail.com</email>
+      <course>CSS</course>
+      <specialty>Code monkey</specialty>
+      <facultynumber>80365</facultynumber>
+      <exams>
+        <exam>
+          <name>CSS</name>
+          <tutor>
+            <name>Konstantin Simeonov</name>
+            <enrollment>
+              <year>2017</year>
+              <endorsement>JavaScript Ninja</endorsement>
+            </enrollment>
+          </tutor>
+          <score>80</score>
+        </exam>
+      </exams>
+    </student>
+  </students>
