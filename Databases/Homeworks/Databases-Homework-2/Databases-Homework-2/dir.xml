@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<root>
+    <dir path="../../bin" />
+    <dir path="../../obj" />
+    <dir path="../../Properties" />
+    <file name="albums" ext=".xml" />
+    <file name="App" ext=".config" />
+    <file name="Catalogue" ext=".xml" />
+    <file name="Databases-Homework-2" ext=".csproj" />
+    <file name="dir" ext=".xml" />
+    <file name="Person" ext=".Xml" />
+    <file name="PersonInfo" ext=".txt" />
+    <file name="XMLProccesing" ext=".cs" />
+</root>

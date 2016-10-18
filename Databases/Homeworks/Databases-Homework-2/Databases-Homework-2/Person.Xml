@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<personInfo>
+  <person>
+    <name>Cuki</name>
+    <address>Druzhba, Sofia 1582</address>
+    <phone>0888999977</phone>
+    <name>Doncho</name>
+    <address>Mladost 1A, Sofia 1000</address>
+    <phone>0877995544</phone>
+  </person>
+  <person>
+    <name>Cuki</name>
+    <address>Druzhba, Sofia 1582</address>
+    <phone>0888999977</phone>
+    <name>Doncho</name>
+  </person>
+</personInfo>
