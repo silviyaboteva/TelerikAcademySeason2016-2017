@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dir path="../../">
+  <dir path="../../bin">
+    <dir path="../../bin\Debug">
+      <file name="Databases-Homework-2" ext=".exe" />
+      <file name="Databases-Homework-2.exe" ext=".config" />
+      <file name="Databases-Homework-2" ext=".pdb" />
+      <file name="Databases-Homework-2.vshost" ext=".exe" />
+      <file name="Databases-Homework-2.vshost.exe" ext=".config" />
+    </dir>
+    <dir path="../../bin\Release" />
+  </dir>
+  <dir path="../../obj">
+    <dir path="../../obj\Debug">
+      <dir path="../../obj\Debug\TempPE" />
+      <file name="Databases-Homework-2.csproj.FileListAbsolute" ext=".txt" />
+      <file name="Databases-Homework-2.csprojResolveAssemblyReference" ext=".cache" />
+      <file name="Databases-Homework-2" ext=".exe" />
+      <file name="Databases-Homework-2" ext=".pdb" />
+      <file name="DesignTimeResolveAssemblyReferencesInput" ext=".cache" />
+      <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92" ext=".cs" />
+      <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1" ext=".cs" />
+      <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3" ext=".cs" />
+    </dir>
+  </dir>
+  <dir path="../../Properties">
+    <file name="AssemblyInfo" ext=".cs" />
+    <file name="Catalogue" ext=".xsd" />
+  </dir>
+  <file name="albums" ext=".xml" />
+  <file name="App" ext=".config" />
+  <file name="Catalogue" ext=".xml" />
+  <file name="Databases-Homework-2" ext=".csproj" />
+  <file name="dir" ext=".xml" />
+  <file name="Person" ext=".Xml" />
+  <file name="PersonInfo" ext=".txt" />
+  <file name="XMLProccesing" ext=".cs" />
+</dir>

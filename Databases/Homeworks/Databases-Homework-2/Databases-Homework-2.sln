@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Databases-Homework-2", "Databases-Homework-2\Databases-Homework-2.csproj", "{DBF0263D-18AF-4FEF-8357-88BF07484558}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B880C62-9B62-451A-9BE6-2B825AED2BDA}"
+	ProjectSection(SolutionItems) = preProject
+		Databases-Homework-2\Person.Xml = Databases-Homework-2\Person.Xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBF0263D-18AF-4FEF-8357-88BF07484558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF0263D-18AF-4FEF-8357-88BF07484558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF0263D-18AF-4FEF-8357-88BF07484558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF0263D-18AF-4FEF-8357-88BF07484558}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
