@@ -1,0 +1,2 @@
+v XmlBasics.cs faila si smeni path-a na trite mesta,
+kudeto sa pisani path-ove s mqstoto, kudeto si si zapazil faila s domashnoto.
